@@ -2,39 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3669530-9637-48fa-806b-93d30294caf0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/chainOfResponsibility/DebugLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/chainOfResponsibility/ErrorLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/chainOfResponsibility/InfoLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/chainOfResponsibility/Logger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/creational/abstractFactory/AbstractFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/creational/abstractFactory/CarFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/creational/abstractFactory/FactoryCreator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/creational/builder/SampleDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/creational/factory/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/creational/factory/CarFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/creational/factory/Lada.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/creational/factory/McLaren.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/creational/prototype/Prototype.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/creational/prototype/PrototypeRecord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/creational/singleton/LazyLoadSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/creational/singleton/Singleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/structural/adapter/Adapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/structural/adapter/NeededClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/structural/adapter/NeededInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/structural/decorator/BaseDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/structural/decorator/BaseImplementation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/structural/decorator/BaseInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/structural/decorator/DecoratorImplementation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/structural/facade/Buy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/structural/facade/Cheese.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/structural/facade/IPhone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/structural/facade/Shop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/structural/proxy/PortalGun.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/structural/proxy/ProxyPortalGun.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/structural/proxy/RealPortalGun.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tukesk.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/command/ActionListenerCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/command/ActionOpen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/command/ActionSave.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/command/Document.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/command/MenuOptions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/interpreter/Pattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/interpreter/SimplePattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/iterator/Container.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/iterator/Iterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/iterator/NameContainer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/memento/CareTaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/memento/Memento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/memento/Originator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/strategy/Context.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/strategy/Downstairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/strategy/Strategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/strategy/Upstairs.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../wt/index.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../wt/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
@@ -172,6 +156,10 @@
       <change beforePath="$PROJECT_DIR$/../src/main/java/sk/tuke/kpi/oop/game/tools/Mjolnir.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/main/java/sk/tuke/kpi/oop/game/tools/Usable.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/main/java/sk/tuke/kpi/oop/game/tools/Wrench.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../wt/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../wt/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../wtt/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../wtt/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -188,118 +176,141 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="390">
+              <caret line="114" selection-start-line="114" selection-end-line="114" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#testCreational#0;class#Main#0" />
                 <element signature="method#testStructural#0;class#Main#0" />
+                <element signature="method#testBehavioral#0;class#Main#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/behavioral/test.xt">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/behavioral/chainOfResponsibility/Logger.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
-              <folding>
-                <element signature="e#370#371#0" expanded="true" />
-                <element signature="e#424#425#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/behavioral/chainOfResponsibility/DebugLogger.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/behavioral/strategy/Strategy.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
-              <caret line="2" column="41" lean-forward="true" selection-start-line="2" selection-start-column="41" selection-end-line="5" selection-end-column="5" />
-              <folding>
-                <element signature="e#110#111#0" expanded="true" />
-                <element signature="e#139#140#0" expanded="true" />
-              </folding>
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/behavioral/chainOfResponsibility/InfoLogger.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/behavioral/strategy/Upstairs.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
-              <caret line="2" column="40" lean-forward="true" selection-start-line="2" selection-start-column="40" selection-end-line="5" selection-end-column="5" />
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
               <folding>
-                <element signature="e#109#110#0" expanded="true" />
-                <element signature="e#139#140#0" expanded="true" />
+                <element signature="e#99#100#0" expanded="true" />
+                <element signature="e#126#127#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/behavioral/chainOfResponsibility/ErrorLogger.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/behavioral/strategy/Context.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+            <state relative-caret-position="30">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
               <folding>
-                <element signature="e#109#110#0" expanded="true" />
-                <element signature="e#139#140#0" expanded="true" />
+                <element signature="e#128#129#0" expanded="true" />
+                <element signature="e#168#169#0" expanded="true" />
+                <element signature="e#203#204#0" expanded="true" />
+                <element signature="e#229#230#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/structural/proxy/PortalGun.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/behavioral/strategy/Downstairs.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+            <state relative-caret-position="30">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <folding>
+                <element signature="e#101#102#0" expanded="true" />
+                <element signature="e#128#129#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/structural/proxy/RealPortalGun.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/behavioral/memento/Memento.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+              <folding>
+                <element signature="e#113#114#0" expanded="true" />
+                <element signature="e#145#146#0" expanded="true" />
+                <element signature="e#176#177#0" expanded="true" />
+                <element signature="e#204#205#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/behavioral/memento/Originator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+              <folding>
+                <element signature="e#121#122#0" expanded="true" />
+                <element signature="e#155#156#0" expanded="true" />
+                <element signature="e#186#187#0" expanded="true" />
+                <element signature="e#214#215#0" expanded="true" />
+                <element signature="e#256#257#0" expanded="true" />
+                <element signature="e#297#298#0" expanded="true" />
+                <element signature="e#352#353#0" expanded="true" />
+                <element signature="e#394#395#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/behavioral/memento/CareTaker.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#108#117#0" expanded="true" />
+                <element signature="e#156#157#0" expanded="true" />
+                <element signature="e#194#195#0" expanded="true" />
+                <element signature="e#230#231#0" expanded="true" />
+                <element signature="e#275#276#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/behavioral/iterator/Container.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-              <folding>
-                <element signature="e#104#105#0" expanded="true" />
-                <element signature="e#140#141#0" expanded="true" />
-              </folding>
+              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/structural/proxy/ProxyPortalGun.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/behavioral/iterator/NameContainer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="61" selection-start-line="16" selection-start-column="61" selection-end-line="16" selection-end-column="61" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/structural/facade/Shop.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
+            <state relative-caret-position="105">
+              <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
               <folding>
-                <element signature="e#233#234#0" expanded="true" />
-                <element signature="e#268#269#0" expanded="true" />
-                <element signature="e#321#322#0" expanded="true" />
-                <element signature="e#371#372#0" expanded="true" />
+                <element signature="e#152#153#0" expanded="true" />
+                <element signature="e#205#206#0" expanded="true" />
+                <element signature="e#114#115#0" expanded="true" />
+                <element signature="e#141#142#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -316,12 +327,11 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/creational/factory/Car.java" />
         <option value="$PROJECT_DIR$/src/main/java/creational/factory/Lada.java" />
         <option value="$PROJECT_DIR$/src/main/java/creational/factory/McLaren.java" />
         <option value="$PROJECT_DIR$/src/main/java/creational/factory/CarFactory.java" />
@@ -351,11 +361,28 @@
         <option value="$PROJECT_DIR$/src/main/java/structural/proxy/PortalGun.java" />
         <option value="$PROJECT_DIR$/src/main/java/structural/proxy/RealPortalGun.java" />
         <option value="$PROJECT_DIR$/src/main/java/structural/proxy/ProxyPortalGun.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/behavioral/chainOfResponsibility/DebugLogger.java" />
         <option value="$PROJECT_DIR$/src/main/java/behavioral/chainOfResponsibility/InfoLogger.java" />
         <option value="$PROJECT_DIR$/src/main/java/behavioral/chainOfResponsibility/ErrorLogger.java" />
         <option value="$PROJECT_DIR$/src/main/java/behavioral/chainOfResponsibility/Logger.java" />
+        <option value="$PROJECT_DIR$/src/main/java/behavioral/command/ActionListenerCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/behavioral/command/Document.java" />
+        <option value="$PROJECT_DIR$/src/main/java/behavioral/command/ActionOpen.java" />
+        <option value="$PROJECT_DIR$/src/main/java/behavioral/command/ActionSave.java" />
+        <option value="$PROJECT_DIR$/src/main/java/behavioral/command/MenuOptions.java" />
+        <option value="$PROJECT_DIR$/src/main/java/behavioral/interpreter/Pattern.java" />
+        <option value="$PROJECT_DIR$/src/main/java/behavioral/interpreter/SimplePattern.java" />
+        <option value="$PROJECT_DIR$/src/main/java/behavioral/iterator/Iterator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/behavioral/iterator/Container.java" />
+        <option value="$PROJECT_DIR$/src/main/java/behavioral/iterator/NameContainer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/behavioral/memento/Memento.java" />
+        <option value="$PROJECT_DIR$/src/main/java/behavioral/memento/Originator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/behavioral/memento/CareTaker.java" />
+        <option value="$PROJECT_DIR$/src/main/java/behavioral/strategy/Strategy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/behavioral/strategy/Downstairs.java" />
+        <option value="$PROJECT_DIR$/src/main/java/behavioral/strategy/Upstairs.java" />
+        <option value="$PROJECT_DIR$/src/main/java/behavioral/strategy/Context.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Main.java" />
       </list>
     </option>
   </component>
@@ -410,6 +437,14 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="behavioral" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="tukesk" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tukesk" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="structural" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -418,6 +453,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -465,12 +501,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1578421985108</updated>
-      <workItem from="1578421987814" duration="6550000" />
+      <workItem from="1578421987814" duration="8528000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6550000" />
+    <option name="totallyTimeSpent" value="8528000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -481,17 +517,17 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2732475" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2732475" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Messages" weight="0.32891566" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32891566" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32891566" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -511,43 +547,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/creational/Factory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/creational/test.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/creational/factory/Car.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
-          <folding>
-            <element signature="e#153#154#0" expanded="true" />
-            <element signature="e#189#190#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/creational/factory/Lada.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="10" selection-end-column="5" />
-          <folding>
-            <element signature="e#86#87#0" expanded="true" />
-            <element signature="e#110#111#0" expanded="true" />
-            <element signature="e#157#158#0" expanded="true" />
-            <element signature="e#193#194#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/creational/factory/McLaren.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -766,19 +765,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/structural/facade/Shop.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
-          <folding>
-            <element signature="e#233#234#0" expanded="true" />
-            <element signature="e#268#269#0" expanded="true" />
-            <element signature="e#321#322#0" expanded="true" />
-            <element signature="e#371#372#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/structural/proxy/CRUD.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -847,18 +833,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#testCreational#0;class#Main#0" />
-            <element signature="method#testStructural#0;class#Main#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/behavioral/chainOfResponsibility/Logger.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -866,6 +840,222 @@
           <folding>
             <element signature="e#370#371#0" expanded="true" />
             <element signature="e#424#425#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/behavioral/command/ActionListenerCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/behavioral/command/Document.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding>
+            <element signature="e#75#76#0" expanded="true" />
+            <element signature="e#128#129#0" expanded="true" />
+            <element signature="e#152#153#0" expanded="true" />
+            <element signature="e#204#205#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/behavioral/command/ActionOpen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#149#150#0" expanded="true" />
+            <element signature="e#179#180#0" expanded="true" />
+            <element signature="e#221#222#0" expanded="true" />
+            <element signature="e#247#248#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/behavioral/command/ActionSave.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+          <folding>
+            <element signature="e#149#150#0" expanded="true" />
+            <element signature="e#179#180#0" expanded="true" />
+            <element signature="e#221#222#0" expanded="true" />
+            <element signature="e#247#248#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/2-Command Pattern/MenuOptions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="15" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/behavioral/command/MenuOptions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/structural/facade/Shop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#233#234#0" expanded="true" />
+            <element signature="e#284#285#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/behavioral/interpreter/Pattern.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/behavioral/interpreter/SimplePattern.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+          <folding>
+            <element signature="e#122#123#0" expanded="true" />
+            <element signature="e#149#150#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/behavioral/iterator/Iterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/behavioral/iterator/Container.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/behavioral/iterator/NameContainer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
+          <folding>
+            <element signature="e#152#153#0" expanded="true" />
+            <element signature="e#205#206#0" expanded="true" />
+            <element signature="e#114#115#0" expanded="true" />
+            <element signature="e#141#142#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/behavioral/memento/Memento.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+          <folding>
+            <element signature="e#113#114#0" expanded="true" />
+            <element signature="e#145#146#0" expanded="true" />
+            <element signature="e#176#177#0" expanded="true" />
+            <element signature="e#204#205#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/behavioral/memento/CareTaker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#108#117#0" expanded="true" />
+            <element signature="e#156#157#0" expanded="true" />
+            <element signature="e#194#195#0" expanded="true" />
+            <element signature="e#230#231#0" expanded="true" />
+            <element signature="e#275#276#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/behavioral/memento/Originator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+          <folding>
+            <element signature="e#121#122#0" expanded="true" />
+            <element signature="e#155#156#0" expanded="true" />
+            <element signature="e#186#187#0" expanded="true" />
+            <element signature="e#214#215#0" expanded="true" />
+            <element signature="e#256#257#0" expanded="true" />
+            <element signature="e#297#298#0" expanded="true" />
+            <element signature="e#352#353#0" expanded="true" />
+            <element signature="e#394#395#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/behavioral/strategy/Context.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#128#129#0" expanded="true" />
+            <element signature="e#168#169#0" expanded="true" />
+            <element signature="e#203#204#0" expanded="true" />
+            <element signature="e#229#230#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/behavioral/strategy/Downstairs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#101#102#0" expanded="true" />
+            <element signature="e#128#129#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/behavioral/strategy/Strategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/behavioral/strategy/Upstairs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#99#100#0" expanded="true" />
+            <element signature="e#126#127#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="114" selection-start-line="114" selection-end-line="114" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#testCreational#0;class#Main#0" />
+            <element signature="method#testStructural#0;class#Main#0" />
+            <element signature="method#testBehavioral#0;class#Main#0" />
           </folding>
         </state>
       </provider>

@@ -2,6 +2,14 @@ import behavioral.chainOfResponsibility.DebugLogger;
 import behavioral.chainOfResponsibility.ErrorLogger;
 import behavioral.chainOfResponsibility.InfoLogger;
 import behavioral.chainOfResponsibility.Logger;
+import behavioral.command.*;
+import behavioral.iterator.Iterator;
+import behavioral.iterator.NameContainer;
+import behavioral.memento.CareTaker;
+import behavioral.memento.Originator;
+import behavioral.strategy.Context;
+import behavioral.strategy.Downstairs;
+import behavioral.strategy.Upstairs;
 import creational.abstractFactory.FactoryCreator;
 import creational.builder.SampleDTO;
 import creational.factory.CarFactory;
@@ -117,5 +125,54 @@ public class Main {
         mainLogger.logMessage(1, "Hello 1");
         mainLogger.logMessage(2, "Hello 2");
         mainLogger.logMessage(3, "Hello 3");
+
+        System.out.println();
+
+        // use of Command pattern
+        Document doc = new Document();
+
+        ActionListenerCommand clickOpen = new ActionOpen(doc);
+        ActionListenerCommand clickSave = new ActionSave(doc);
+
+        MenuOptions menu = new MenuOptions(clickOpen, clickSave);
+
+        menu.clickOpen();
+        menu.clickSave();
+
+        System.out.println();
+
+        // use of Iterator pattern
+        NameContainer nc = new NameContainer("Denys");
+        Iterator nameIterator = nc.getIterator();
+        while (nameIterator.hasNext()) {
+            System.out.println(nameIterator.next());
+        }
+
+        System.out.println();
+
+        // use of Memento pattern
+        Originator originator = new Originator();
+        CareTaker careTaker = new CareTaker();
+
+        originator.setState("State #1");
+        careTaker.add(originator.saveStateToMemento());
+        originator.setState("State #2");
+        careTaker.add(originator.saveStateToMemento());
+
+        System.out.println("Current State: " + originator.getState());
+        originator.getStateFromMemento(careTaker.get(0));
+        System.out.println("First saved State: " + originator.getState());
+        originator.getStateFromMemento(careTaker.get(1));
+
+        System.out.println();
+
+        // use of Strategy pattern
+
+        Context up = new Context(new Upstairs());
+        Context down = new Context(new Downstairs());
+        System.out.println(up.executeStrategy());
+        System.out.println(down.executeStrategy());
+
+        System.out.println();
     }
 }
