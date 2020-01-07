@@ -1,0 +1,874 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e3669530-9637-48fa-806b-93d30294caf0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/chainOfResponsibility/DebugLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/chainOfResponsibility/ErrorLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/chainOfResponsibility/InfoLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/chainOfResponsibility/Logger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/abstractFactory/AbstractFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/abstractFactory/CarFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/abstractFactory/FactoryCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/builder/SampleDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/factory/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/factory/CarFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/factory/Lada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/factory/McLaren.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/prototype/Prototype.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/prototype/PrototypeRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/singleton/LazyLoadSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/singleton/Singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/adapter/Adapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/adapter/NeededClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/adapter/NeededInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/decorator/BaseDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/decorator/BaseImplementation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/decorator/BaseInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/decorator/DecoratorImplementation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/facade/Buy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/facade/Cheese.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/facade/IPhone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/facade/Shop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/proxy/PortalGun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/proxy/ProxyPortalGun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/proxy/RealPortalGun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tukesk.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wt/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wt/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bodya/ptnshk" beforeDir="false" afterPath="$PROJECT_DIR$/../bodya/ptnshk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../diet-planner-back/firebase.json" beforeDir="false" afterPath="$PROJECT_DIR$/../diet-planner-back/firebase.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../diet-planner-back/functions/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../diet-planner-back/functions/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../diet-planner-back/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../diet-planner-back/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../diet-planner-front/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../diet-planner-front/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../diet-planner-front/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../diet-planner-front/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../diet-planner-front/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../diet-planner-front/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../diet-planner-front/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../diet-planner-front/src/app/app-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../diet-planner-front/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../diet-planner-front/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../diet-planner-front/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../diet-planner-front/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../diet-planner-front/src/app/components/diet-edit/diet-edit.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../diet-planner-front/src/app/components/diet-edit/diet-edit.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../diet-planner-front/src/app/components/diet-edit/diet-edit.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../diet-planner-front/src/app/components/diet-edit/diet-edit.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../diet-planner-front/src/app/components/diet-edit/diet-edit.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../diet-planner-front/src/app/components/diet-edit/diet-edit.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../diet-planner-front/src/app/services/fire-base.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../diet-planner-front/src/app/services/fire-base.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../diet-planner-front/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../diet-planner-front/src/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kprog-front" beforeDir="false" afterPath="$PROJECT_DIR$/../kprog-front" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-ellen/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../project-ellen/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-ellen/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-ellen/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-ellen/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-ellen/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-ellen/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-ellen/settings.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-ellen/src/main/java/sk/tuke/kpi/oop/game/Computer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-ellen/src/main/java/sk/tuke/kpi/oop/game/Cooler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-ellen/src/main/java/sk/tuke/kpi/oop/game/DefectiveLight.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-ellen/src/main/java/sk/tuke/kpi/oop/game/Direction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-ellen/src/main/java/sk/tuke/kpi/oop/game/EnergyConsumer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-ellen/src/main/java/sk/tuke/kpi/oop/game/Helicopter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-ellen/src/main/java/sk/tuke/kpi/oop/game/Keeper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-ellen/src/main/java/sk/tuke/kpi/oop/game/Light.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-ellen/src/main/java/sk/tuke/kpi/oop/game/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-ellen/src/main/java/sk/tuke/kpi/oop/game/Movable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-ellen/src/main/java/sk/tuke/kpi/oop/game/PowerSwitch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-ellen/src/main/java/sk/tuke/kpi/oop/game/Reactor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-ellen/src/main/java/sk/tuke/kpi/oop/game/Repairable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-ellen/src/main/java/sk/tuke/kpi/oop/game/SmartCooler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-ellen/src/main/java/sk/tuke/kpi/oop/game/Switchable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-ellen/src/main/java/sk/tuke/kpi/oop/game/Teleport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-ellen/src/main/java/sk/tuke/kpi/oop/game/TimeBomb.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-ellen/src/main/java/sk/tuke/kpi/oop/game/actions/Drop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-ellen/src/main/java/sk/tuke/kpi/oop/game/actions/Move.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-ellen/src/main/java/sk/tuke/kpi/oop/game/actions/PerpetualReactorHeating.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-ellen/src/main/java/sk/tuke/kpi/oop/game/actions/Shift.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-ellen/src/main/java/sk/tuke/kpi/oop/game/actions/Take.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-ellen/src/main/java/sk/tuke/kpi/oop/game/actions/Use.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-ellen/src/main/java/sk/tuke/kpi/oop/game/characters/Armed.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-ellen/src/main/java/sk/tuke/kpi/oop/game/characters/Ripley.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-ellen/src/main/java/sk/tuke/kpi/oop/game/controllers/KeeperController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-ellen/src/main/java/sk/tuke/kpi/oop/game/controllers/MovableController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-ellen/src/main/java/sk/tuke/kpi/oop/game/items/AccessCard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-ellen/src/main/java/sk/tuke/kpi/oop/game/items/Ammo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-ellen/src/main/java/sk/tuke/kpi/oop/game/items/Backpack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-ellen/src/main/java/sk/tuke/kpi/oop/game/items/BreakableTool.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-ellen/src/main/java/sk/tuke/kpi/oop/game/items/Collectible.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-ellen/src/main/java/sk/tuke/kpi/oop/game/items/Energy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-ellen/src/main/java/sk/tuke/kpi/oop/game/items/FireExtinguisher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-ellen/src/main/java/sk/tuke/kpi/oop/game/items/Hammer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-ellen/src/main/java/sk/tuke/kpi/oop/game/items/Mjolnir.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-ellen/src/main/java/sk/tuke/kpi/oop/game/items/Usable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-ellen/src/main/java/sk/tuke/kpi/oop/game/items/Wrench.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-ellen/src/main/java/sk/tuke/kpi/oop/game/openables/Door.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-ellen/src/main/java/sk/tuke/kpi/oop/game/openables/LockedDoor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-ellen/src/main/java/sk/tuke/kpi/oop/game/openables/Openable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-ellen/src/main/java/sk/tuke/kpi/oop/game/scenarios/FirstSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-ellen/src/main/java/sk/tuke/kpi/oop/game/scenarios/MissionImpossible.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-ellen/src/main/java/sk/tuke/kpi/oop/game/scenarios/TrainingGameplay.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-ellen/src/main/java/sk/tuke/kpi/oop/game/weapons/Fireable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-ellen/src/main/java/sk/tuke/kpi/oop/game/weapons/Firearm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-ellen/src/main/resources/maps/mission-impossible.tmx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-ellen/src/main/resources/maps/tilesets/tileset01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-ellen/src/main/resources/sprites/alien.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-ellen/src/main/resources/sprites/ammo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-ellen/src/main/resources/sprites/bomb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-ellen/src/main/resources/sprites/bomb_activated.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-ellen/src/main/resources/sprites/bullet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-ellen/src/main/resources/sprites/computer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-ellen/src/main/resources/sprites/energy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-ellen/src/main/resources/sprites/engine.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-ellen/src/main/resources/sprites/extinguisher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-ellen/src/main/resources/sprites/fan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-ellen/src/main/resources/sprites/hammer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-ellen/src/main/resources/sprites/hdoor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-ellen/src/main/resources/sprites/heli.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-ellen/src/main/resources/sprites/key.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-ellen/src/main/resources/sprites/lift.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-ellen/src/main/resources/sprites/light_off.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-ellen/src/main/resources/sprites/light_on.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-ellen/src/main/resources/sprites/player.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-ellen/src/main/resources/sprites/player_die.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-ellen/src/main/resources/sprites/reactor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-ellen/src/main/resources/sprites/reactor_broken.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-ellen/src/main/resources/sprites/reactor_extinguished.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-ellen/src/main/resources/sprites/reactor_hot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-ellen/src/main/resources/sprites/reactor_on.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-ellen/src/main/resources/sprites/small_explosion.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-ellen/src/main/resources/sprites/switch.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-ellen/src/main/resources/sprites/vdoor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-ellen/src/main/resources/sprites/wrench.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pvjc/untitled/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pvjc/untitled/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pvjc/untitled/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/../pvjc/untitled/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../smart/lessons/cv9/load.js" beforeDir="false" afterPath="$PROJECT_DIR$/../smart/lessons/cv9/load.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../smart/smart-front/src/app/components/main/main.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../smart/smart-front/src/app/components/main/main.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../smart/smart-front/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../smart/smart-front/src/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/sk/tuke/kpi/oop/game/ChainBomb.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/sk/tuke/kpi/oop/game/Computer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/sk/tuke/kpi/oop/game/Cooler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/sk/tuke/kpi/oop/game/DefectiveLight.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/sk/tuke/kpi/oop/game/EnergyConsumer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/sk/tuke/kpi/oop/game/Gameplay.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/sk/tuke/kpi/oop/game/Helicopter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/sk/tuke/kpi/oop/game/Light.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/sk/tuke/kpi/oop/game/PowerSwitch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/sk/tuke/kpi/oop/game/Reactor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/sk/tuke/kpi/oop/game/Repairable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/sk/tuke/kpi/oop/game/SmartCooler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/sk/tuke/kpi/oop/game/Switchable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/sk/tuke/kpi/oop/game/Teleport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/sk/tuke/kpi/oop/game/TimeBomb.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/sk/tuke/kpi/oop/game/actions/PerpetualReactorHeating.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/sk/tuke/kpi/oop/game/tools/BreakableTool.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/sk/tuke/kpi/oop/game/tools/FireExtinguisher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/sk/tuke/kpi/oop/game/tools/Hammer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/sk/tuke/kpi/oop/game/tools/Mjolnir.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/sk/tuke/kpi/oop/game/tools/Usable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/sk/tuke/kpi/oop/game/tools/Wrench.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wt/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../wt/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wtt/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../wtt/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#testCreational#0;class#Main#0" />
+                <element signature="method#testStructural#0;class#Main#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/behavioral/test.xt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/behavioral/chainOfResponsibility/Logger.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+              <folding>
+                <element signature="e#370#371#0" expanded="true" />
+                <element signature="e#424#425#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/behavioral/chainOfResponsibility/DebugLogger.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="41" lean-forward="true" selection-start-line="2" selection-start-column="41" selection-end-line="5" selection-end-column="5" />
+              <folding>
+                <element signature="e#110#111#0" expanded="true" />
+                <element signature="e#139#140#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/behavioral/chainOfResponsibility/InfoLogger.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="40" lean-forward="true" selection-start-line="2" selection-start-column="40" selection-end-line="5" selection-end-column="5" />
+              <folding>
+                <element signature="e#109#110#0" expanded="true" />
+                <element signature="e#139#140#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/behavioral/chainOfResponsibility/ErrorLogger.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+              <folding>
+                <element signature="e#109#110#0" expanded="true" />
+                <element signature="e#139#140#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/structural/proxy/PortalGun.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/structural/proxy/RealPortalGun.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+              <folding>
+                <element signature="e#104#105#0" expanded="true" />
+                <element signature="e#140#141#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/structural/proxy/ProxyPortalGun.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="61" selection-start-line="16" selection-start-column="61" selection-end-line="16" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/structural/facade/Shop.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
+              <folding>
+                <element signature="e#233#234#0" expanded="true" />
+                <element signature="e#268#269#0" expanded="true" />
+                <element signature="e#321#322#0" expanded="true" />
+                <element signature="e#371#372#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/creational/factory/Car.java" />
+        <option value="$PROJECT_DIR$/src/main/java/creational/factory/Lada.java" />
+        <option value="$PROJECT_DIR$/src/main/java/creational/factory/McLaren.java" />
+        <option value="$PROJECT_DIR$/src/main/java/creational/factory/CarFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/creational/abstractFactory/Bank.java" />
+        <option value="$PROJECT_DIR$/src/main/java/creational/abstractFactory/AbstractFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/creational/abstractFactory/CarFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/creational/abstractFactory/FactoryCreator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/creational/singleton/Singleton.java" />
+        <option value="$PROJECT_DIR$/src/main/java/creational/singleton/LazyLoadSingleton.java" />
+        <option value="$PROJECT_DIR$/src/main/java/creational/prototype/Prototype.java" />
+        <option value="$PROJECT_DIR$/src/main/java/creational/prototype/PrototypeRecord.java" />
+        <option value="$PROJECT_DIR$/src/main/java/creational/builder/SampleDTO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/structural/adapter/NeededInterface.java" />
+        <option value="$PROJECT_DIR$/src/main/java/structural/adapter/NeededClass.java" />
+        <option value="$PROJECT_DIR$/src/main/java/structural/adapter/Adapter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/structural/decorator/BaseInterface.java" />
+        <option value="$PROJECT_DIR$/src/main/java/structural/decorator/BaseImplementation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/structural/decorator/BaseDecorator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/structural/decorator/DecoratorImplementation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/structural/facade/CommenInterface.java" />
+        <option value="$PROJECT_DIR$/src/main/java/structural/facade/MobilePhone.java" />
+        <option value="$PROJECT_DIR$/src/main/java/structural/facade/Buy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/structural/facade/IPhone.java" />
+        <option value="$PROJECT_DIR$/src/main/java/structural/facade/Cheese.java" />
+        <option value="$PROJECT_DIR$/src/main/java/structural/facade/Shop.java" />
+        <option value="$PROJECT_DIR$/src/main/java/structural/proxy/CRUD.java" />
+        <option value="$PROJECT_DIR$/src/main/java/structural/proxy/PortalGun.java" />
+        <option value="$PROJECT_DIR$/src/main/java/structural/proxy/RealPortalGun.java" />
+        <option value="$PROJECT_DIR$/src/main/java/structural/proxy/ProxyPortalGun.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/behavioral/chainOfResponsibility/DebugLogger.java" />
+        <option value="$PROJECT_DIR$/src/main/java/behavioral/chainOfResponsibility/InfoLogger.java" />
+        <option value="$PROJECT_DIR$/src/main/java/behavioral/chainOfResponsibility/ErrorLogger.java" />
+        <option value="$PROJECT_DIR$/src/main/java/behavioral/chainOfResponsibility/Logger.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="tukesk" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tukesk" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tukesk" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tukesk" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tukesk" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tukesk" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tukesk" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tukesk" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tukesk" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tukesk" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="behavioral" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="tukesk" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e3669530-9637-48fa-806b-93d30294caf0" name="Default Changelist" comment="" />
+      <created>1578421985108</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578421985108</updated>
+      <workItem from="1578421987814" duration="6550000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="6550000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2732475" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" weight="0.32891566" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/creational/Factory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/creational/test.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/creational/factory/Car.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+          <folding>
+            <element signature="e#153#154#0" expanded="true" />
+            <element signature="e#189#190#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/creational/factory/Lada.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="10" selection-end-column="5" />
+          <folding>
+            <element signature="e#86#87#0" expanded="true" />
+            <element signature="e#110#111#0" expanded="true" />
+            <element signature="e#157#158#0" expanded="true" />
+            <element signature="e#193#194#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/creational/factory/McLaren.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+          <folding>
+            <element signature="e#93#94#0" expanded="true" />
+            <element signature="e#119#120#0" expanded="true" />
+            <element signature="e#164#165#0" expanded="true" />
+            <element signature="e#206#207#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/creational/abstractFactory/Bank.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/creational/abstractFactory/AbstractFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="43" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/creational/factory/CarFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="12" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/creational/abstractFactory/CarFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/creational/abstractFactory/FactoryCreator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+          <folding>
+            <element signature="e#119#120#0" expanded="true" />
+            <element signature="e#157#158#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/creational/singleton/Singleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="4" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="9" selection-end-column="5" />
+          <folding>
+            <element signature="e#178#179#0" expanded="true" />
+            <element signature="e#206#207#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/creational/singleton/LazyLoadSingleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/creational/prototype/Prototype.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/creational/prototype/PrototypeRecord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+          <folding>
+            <element signature="e#154#155#0" expanded="true" />
+            <element signature="e#186#187#0" expanded="true" />
+            <element signature="e#255#256#0" expanded="true" />
+            <element signature="e#303#304#0" expanded="true" />
+            <element signature="e#344#345#0" expanded="true" />
+            <element signature="e#371#372#0" expanded="true" />
+            <element signature="e#339#340#0" expanded="true" />
+            <element signature="e#366#367#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/creational/builder/SampleDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="42" column="29" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
+          <folding>
+            <element signature="e#824#825#0" expanded="true" />
+            <element signature="e#869#870#0" expanded="true" />
+            <element signature="e#957#958#0" expanded="true" />
+            <element signature="e#989#990#0" expanded="true" />
+            <element signature="e#1017#1018#0" expanded="true" />
+            <element signature="e#1046#1047#0" expanded="true" />
+            <element signature="e#1074#1075#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/structural/test.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/structural/adapter/NeededInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/structural/adapter/NeededClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="51" />
+          <folding>
+            <element signature="e#91#92#0" expanded="true" />
+            <element signature="e#127#128#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/structural/adapter/Adapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#134#135#0" expanded="true" />
+            <element signature="e#192#193#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/structural/decorator/BaseInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/structural/decorator/BaseImplementation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+          <folding>
+            <element signature="e#119#120#0" expanded="true" />
+            <element signature="e#146#147#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/structural/decorator/BaseDecorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="48" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
+          <folding>
+            <element signature="e#212#213#0" expanded="true" />
+            <element signature="e#272#273#0" expanded="true" />
+            <element signature="e#317#318#0" expanded="true" />
+            <element signature="e#355#356#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/structural/decorator/DecoratorImplementation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+          <folding>
+            <element signature="e#166#167#0" expanded="true" />
+            <element signature="e#207#208#0" expanded="true" />
+            <element signature="e#252#253#0" expanded="true" />
+            <element signature="e#290#291#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/structural/facade/Buy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/structural/facade/IPhone.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+          <folding>
+            <element signature="e#100#101#0" expanded="true" />
+            <element signature="e#127#128#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/structural/facade/Cheese.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="41" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
+          <folding>
+            <element signature="e#100#101#0" expanded="true" />
+            <element signature="e#127#128#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/structural/facade/Shop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
+          <folding>
+            <element signature="e#233#234#0" expanded="true" />
+            <element signature="e#268#269#0" expanded="true" />
+            <element signature="e#321#322#0" expanded="true" />
+            <element signature="e#371#372#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/structural/proxy/CRUD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="26" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/structural/proxy/PortalGun.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/structural/proxy/RealPortalGun.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#104#105#0" expanded="true" />
+            <element signature="e#140#141#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/structural/proxy/ProxyPortalGun.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="61" selection-start-line="16" selection-start-column="61" selection-end-line="16" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/behavioral/test.xt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/behavioral/chainOfResponsibility/DebugLogger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="41" lean-forward="true" selection-start-line="2" selection-start-column="41" selection-end-line="5" selection-end-column="5" />
+          <folding>
+            <element signature="e#110#111#0" expanded="true" />
+            <element signature="e#139#140#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/behavioral/chainOfResponsibility/InfoLogger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="40" lean-forward="true" selection-start-line="2" selection-start-column="40" selection-end-line="5" selection-end-column="5" />
+          <folding>
+            <element signature="e#109#110#0" expanded="true" />
+            <element signature="e#139#140#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/behavioral/chainOfResponsibility/ErrorLogger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+          <folding>
+            <element signature="e#109#110#0" expanded="true" />
+            <element signature="e#139#140#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#testCreational#0;class#Main#0" />
+            <element signature="method#testStructural#0;class#Main#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/behavioral/chainOfResponsibility/Logger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+          <folding>
+            <element signature="e#370#371#0" expanded="true" />
+            <element signature="e#424#425#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
