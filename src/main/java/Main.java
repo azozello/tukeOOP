@@ -23,12 +23,29 @@ import structural.decorator.DecoratorImplementation;
 import structural.facade.Shop;
 import structural.proxy.ProxyPortalGun;
 
+import java.util.HashMap;
+import java.util.TreeMap;
+
 public class Main {
 
     public static void main(String[] args) {
-        Main.testCreational();
-        Main.testStructural();
-        Main.testBehavioral();
+//        String a = "abc".substring(0, 1);
+//        String b = "a";
+//        System.out.println(a == b);
+//        System.out.println(a.equals(b));
+//
+//        System.out.println();
+//
+//        a = a.intern();
+//        b = b.intern();
+//
+//        System.out.println(a == b);
+//        System.out.println(a.equals(b));
+//        Main.testCreational();
+////        Main.testStructural();
+////        Main.testBehavioral();
+
+
     }
 
     private static void testCreational() {
