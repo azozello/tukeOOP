@@ -15,6 +15,15 @@ public class Product {
         this.c = c;
     }
 
+    @Override
+    public String toString() {
+        return "Product{" +
+                "a='" + a + '\'' +
+                ", b='" + b + '\'' +
+                ", c='" + c + '\'' +
+                '}';
+    }
+
     public String getA() {
         return a;
     }
